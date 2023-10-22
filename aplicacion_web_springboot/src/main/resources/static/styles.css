@@ -1,0 +1,70 @@
+
+.input-field {
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* Otros estilos según tus necesidades */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.contenedor-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.contenedor-tabla {
+    max-height: 300px; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+table {
+    width: 100%; /* Opcional: ajusta el ancho de la tabla según sea necesario */
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Agrega bordes a la tabla, encabezados y celdas */
+    text-align: left;
+    padding: 8px;
+}
+

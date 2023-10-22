@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="contenedor-titulo">
+      <h1>Merktodo PLus</h1>
+    </div>
+    <div>
+      <h2>Inventario de Productos</h2>
+      <div class="contenedor-tabla">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Tipo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr th:each="Productos: ${productos}">
+              <td th:text="${Productos.Nombre}" class="input-field"></td>
+              <td th:text="${Productos.Precio}" class="input-field"></td>
+              <td th:text="${Productos.Tipo}" class="input-field"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <br /><br />
+        <button><a th:href="@{/formulario}">Ingresar Productos</a></button>
+      </div>
+    </div>
+  </body>
+</html>

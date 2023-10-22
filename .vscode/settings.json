@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "aplicacion_web_springboot/src/main/java/romero/oscar/aplicacion_web_springboot"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
